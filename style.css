@@ -1,0 +1,103 @@
+body{
+  background-color: #80CBC4;
+}
+
+.navbar{
+  background-color:#7B1FA2 !important;
+ 
+}
+.navbar-nav li:hover{
+  background-color: rgb(4, 103, 143);
+  border-radius: 30px;
+  padding: 0px 10px 0px 10px;
+}
+.nav-link{
+    color: whitesmoke !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-brand{
+    font-weight: bold !important;
+    color: white !important;
+    font-size: 50px !important;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-right: 450px !important;
+    margin-left: 15px;
+    text-shadow: 5px 2px 5px rgb(208, 255, 0),  0 0 25px rgb(0, 255, 34), 0 0 5px yellow !important;
+}
+.feature1 , .feature2{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  flex-wrap: wrap;
+ 
+  
+}
+h1 , .menscollection, .menscollection1, .menscollection2 {
+  text-align: center ;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold ;
+  font-size: 40px;
+ 
+  
+}
+.mainfeature img{
+  margin-bottom: 15px;
+  
+}
+.feature11 , .feature12 , .feature21 , .feature22 {
+  box-shadow: 2px 8px 9px gray;
+  margin-top: 15px;
+  background-color: wheat;
+  
+}
+
+.brands{
+  text-align: center;
+  margin-top: 55px;
+}
+.brands img{
+  margin-top: 25px;
+}
+footer p{
+ margin-left: 80px;
+ font-weight: bold;
+}
+footer{
+  background-color: #757575 ;
+  margin-top: 200px;
+  color: white;
+  height: 210px;
+  padding-top: 20px;
+}
+.Intro{
+  margin-left: 150px;
+  margin-right: 150px;
+  text-align: justify;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+.menscollection> img , .menscollection1> img , .menscollection2> img {
+  box-shadow: 2px 8px 9px gray;
+  margin: 10px 50px 20px 0px ;
+}
+
+.collection{
+  margin-top: 50px;
+}
+.lenstype{
+  font-weight: bold;
+}
+@media only screen and (max-width: 600px){
+  .Intro {
+      margin-left: 50px ;
+      margin-right: 50px ;
+      width: 80%;
+      
+  }
+}
